@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html ng-app="talkApp">
+<head>
+  <meta charset="utf-8">
+  <title>The Secret Life(cycle) of Components</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body ng-controller="TalkCtrl">
+  <article>
+    <section data-bespoke-state="piano">
+      <div class="content">
+        <h2>The Secret Life(cycle) of Components</h2>
+        <div class="byline">
+          <div class="classy">
+            by Leonardo Zizzamia
+          </div>
+        </div>
+        <div class="profile">
+          <div class="rounded-image">
+            <img src="img/leo.jpg">
+          </div>
+          <h3>@zizzamia</h3>
+        </div>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>Solid foundation</h2>
+        <div class="byline">
+          <div class="classy">
+            Is an open source collection of UI components used by my team
+          </div>
+        </div>
+        <a href="https://github.com/Zizzamia/ng-tasty" target="_blank">
+          <img src="img/ng-tasty-github.jpg" style="width:800px" />
+        </a>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>When should we use them?</h2>
+        <div class="byline">
+          <div class="classy">
+            No shared components available
+          </div>
+        </div>
+        <div class="byline">
+          <div class="classy">
+            No shared architecture
+          </div>
+        </div>
+        <div class="byline">
+          <div class="classy">
+            No communication between teams
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-title">
+      <div class="content">
+        <img src="img/ngTwitter_logo_blue.png" style="opacity:0.9">
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>Practical concepts</h2>
+        <div class="byline">
+          <div class="classy">
+            easy to reuse
+          </div>
+        </div>
+        <div class="byline">
+          <div class="classy">
+            easy to test
+          </div>
+        </div>
+        <div class="byline">
+          <div class="classy">
+            easy to benchmark
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>Bridge the gap</h2>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>Speed up Performance in 7 steps</h2>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>There is a deeper game</h2>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h2>Twilight Zone</h2>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-title">
+      <div class="content">
+        <div class="byline">
+          <div class="classy">
+            There is some
+          </div>
+        </div>
+        <h2>repeated manual work</h2>
+        <div class="byline">
+          <div class="classy">
+            to do
+          </div>
+        </div>
+        <h2>to create a benchmark</h2>
+        <div class="unbrokenline"></div>
+      </div>
+    </section>
+
+    <section data-bespoke-state="code">
+      <div class="content">
+        <h3>How to create a benchmark</h3>
+        <p style="text-align:left">Enter this</p>
+        <pre ng-non-bindable><code class="language-javascript">npm install generator-benchpress
+
+yo benchpress ng-tasty
+</code></pre>
+        <p style="text-align:left">You get this</p>
+        <pre ng-non-bindable><code class="language-javascript">create benchmarks/protractor.conf.js
+create benchmarks/ng-tasty/index.html
+create benchmarks/ng-tasty/benchmark.spec.js</code></pre>
+      </div>
+    </section>
+
+    <section data-bespoke-state="code">
+      <div class="content">
+        <h3>Prepare a benchmark on the dist</h3>
+        <p style="text-align:left">To see the case we are testing we can run</p>
+        <pre ng-non-bindable><code class="language-javascript">http-server -p 8000</code></pre>
+        <br />
+        <p style="text-align:left">And visit</p>
+        <pre ng-non-bindable><code class="language-javascript">http://localhost:8000/benchmarks/ng-tasty/</code></pre>
+      </div>
+    </section>
+
+    <section data-bespoke-state="code">
+      <div class="content">
+        <h4>ngTasty Simple Table</h4>
+        <pre><code class="language-javascript">$scope.resource = {
+  "header": [
+    { "name": "Name" },
+    { "star": "Star" },
+    { "sf-Location": "SF Location" }
+  ],
+  "rows": [
+    { "name": "Ritual Coffee Roasters", "star": "★★★★★", "sf-location": "Hayes Valley"}, ...
+  ]
+};</code></pre>
+      </div>
+    </section>
+
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h3>To recap</h3>
+        <ul>
+          <li>1) compare api implementation</li>
+          <li>2) compare versions</li>
+          <li>3) compare third part solutions</li>
+        </ul>
+      </div>
+    </section>
+    
+    <section data-bespoke-state="full-text">
+      <div class="content">
+        <h3>#ThankYou</h3>
+        <div class="byline">
+          <div class="classy">
+            grazie!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-bespoke-state="horse">
+      <div class="content">
+        <div class="byline">
+          <div class="classy">
+            This has been
+          </div>
+        </div>
+        <h2>The Secret Life(cycle) of Components</h2>
+        <div class="byline">
+          <div class="classy">
+            by Leonardo Zizzamia
+          </div>
+        </div>
+        <div class="profile">
+          <div class="rounded-image">
+            <img src="img/leo.jpg">
+          </div>
+          <h3>@zizzamia</h3>
+        </div>
+      </div>
+    </section>
+
+  </article>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Tauri::latin', 'Alegreya:400italic:latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+  <script src="js/bespoke.js"></script>
+  <script src="js/prism.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/deck.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/app.xss.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/ng-tasty/ng-tasty-tpls.js"></script>
+  <script>
+    angular.module('talkApp', [])
+    .config(function ($compileProvider) {
+      $compileProvider.debugInfoEnabled(false);
+    })
+    .controller('TalkCtrl', function ($scope) {
+      $scope.talk = {
+        demoTime: 'Demo time'
+      }
+    })
+  </script>
+</body>
+</html>
