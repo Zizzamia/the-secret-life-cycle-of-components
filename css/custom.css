@@ -165,7 +165,7 @@ twitterwidget {
 .full-title .bespoke-slide,
 .piano .bespoke-slide,
 .horse .bespoke-slide,
-.deeper-game .bespoke-slide, {
+.deeper-game .bespoke-slide {
   margin-top: -1.4em;
   -webkit-box-align: center;
   -moz-box-align: center;
