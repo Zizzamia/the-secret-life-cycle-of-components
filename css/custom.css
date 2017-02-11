@@ -180,7 +180,7 @@ twitterwidget {
   margin-top: 10%;
 }
 .deeper-game .bespoke-slide {
-  margin-top: 20%;
+  margin-top: 0%;
 }
 
 
@@ -296,4 +296,10 @@ pre code span {
 }
 .tomato {
   color: tomato;
+}
+.byline--notLine::before {
+  border: none!important;
+}
+.byline--notLine::after {
+  border: none!important;
 }
