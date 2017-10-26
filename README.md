@@ -1,7 +1,5 @@
 
 # [The Secret Life(cycle) of Components](http://zizzamia.github.io/life-cycle/)
-This repo is the main code to run the Web and Platform applications
-
 There is an entire world of complex interactions happening just under the surface of an Angular application. We can use lifecycle hooks to perform complex state management, coordinate control flow and finesse asynchronous events that would normally result in unpredictable and volatile results. 
 
 We will start out by laying a solid foundation of what lifecycle hooks exist and when they happen in relation to each other. We will then anchor this knowledge in practical concepts that you can start using in your projects right away to help you make friends and influence people.
