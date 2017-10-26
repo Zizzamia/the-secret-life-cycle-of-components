@@ -13,6 +13,6 @@ Then we will go into the Twilight Zone as learn how to manipulate Zone.js events
 - [Medium Article](https://medium.com/@zizzamia/the-secret-life-cycle-of-components-ee180a9a42bb)
 - [Video talk](https://www.youtube.com/watch?v=bojG4ua0jVc)
 
+### Twitter [@zizzamia](https://twitter.com/Zizzamia)
 <blockquote class="twitter-tweet" data-lang="it"><p lang="en" dir="ltr">🔥 BOOM!!! My first <a href="https://twitter.com/angular?ref_src=twsrc%5Etfw">@angular</a> article &quot;The Secret Life(cycle) of Components&quot; <a href="https://t.co/ItPdlUCbOA">https://t.co/ItPdlUCbOA</a></p>&mdash; Leonardo Zizzamia🦉 (@Zizzamia) <a href="https://twitter.com/Zizzamia/status/830447426725085189?ref_src=twsrc%5Etfw">11 febbraio 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
